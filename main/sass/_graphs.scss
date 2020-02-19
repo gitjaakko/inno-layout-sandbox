@@ -13,7 +13,6 @@
 .graph {
     display: flex;
     flex-direction: column;
-    // justify-content: center;
     align-items: center;
     // border: 2px solid ;
     margin: 5px 5px;
@@ -31,6 +30,7 @@
         width: 100%;
     }
 
+    // Instead of :active pseudo-class use a pop-up component done with your .js framework
     &:active {
         background-color: $color-white;
         position: absolute;

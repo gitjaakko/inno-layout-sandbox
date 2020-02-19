@@ -10,13 +10,13 @@ html {
     display: grid;
     padding: 0 1rem;
 
-    // define header height 8rem, then another 2 rows for main content, min 40rem, max 1frame(rest of the screen)
+    // define header height 8rem, 5rem for summary bar, then as many rows as needed for content, min 30rem, max 1frame(rest of the screen)
     grid-template-rows: 8rem 5rem repeat(auto-fit, minmax(30rem, 1fr));
 
     // define 8rem for sidebar width, then a grid area for rest, min 6rem, max 1frame
     grid-template-columns: 
     [sidebar-left-start] 8rem 
-    [sidebar-left-end center-start] repeat(2, minmax(6rem, 2fr))
+    [sidebar-left-end center-start] repeat(2, minmax(6rem, 1fr))
     [center-end sidebar-right-start] 8rem
     [sidebar-right-end]
     ;
