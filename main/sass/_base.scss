@@ -2,9 +2,15 @@
 html {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    // Font size of 62.5% scales 1rem to 10px.
     font-size: 62.5%;
 }
 
+/**
+* Built using a CSS Grid layout
+* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+* https://css-tricks.com/snippets/css/complete-guide-grid/
+*/
 .container {
     background-color: $color-grey-light-1;
     display: grid;

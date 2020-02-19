@@ -3,9 +3,10 @@
     align-items: center;
     position: relative;
     background-color: $color-grey-light-2;
+    border-radius: 3rem;
+    // Define grid area being used by component
     grid-column: 1 / -1;
     grid-row: 1 / 2;
-    border-radius: 3rem;
 
     &__buttons {
         position: absolute;
