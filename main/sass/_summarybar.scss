@@ -1,0 +1,21 @@
+.summarybar {
+    margin-top: 5px;
+    grid-row: 2/3;
+    grid-column: 3/ -1;
+    background-color: $color-grey-light-2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 0 2rem;
+
+    &__active {
+        // margin: 5px 5px;
+    }
+    &__totals {
+
+    }
+
+}
